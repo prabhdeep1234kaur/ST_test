@@ -14,6 +14,7 @@ Gender : <select name="gender">
 <option value="0">Gender</option>
 <option value="1">Male</option>
 <option value="2">Female</option>
+<option value="3">Other</option>
 </select>
 <?php if(isset($error_gender)){echo  $error_gender;} ?>
 <input type="submit" value="submit"><br>
